@@ -10,14 +10,13 @@ body {
 
 h1 {
     color: hsl(150, 100%, 66%);
-    font-size:0.9rem;
+    font-size:1rem;
 }
 
 .box {
     background: hsl(217, 19%, 24%);
     display: flex;
     flex-direction: column;
-    width: px;
     border-radius: 20px;
     align-items: center;
 }
@@ -32,4 +31,7 @@ h1 {
 
 .dice:hover {
     box-shadow: 3px 3px 15px hsl(150, 100%, 66%), -3px -3px 15px hsl(150, 100%, 66%);
+}
+.dice::after{
+    box-shadow: none;
 }
