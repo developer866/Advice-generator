@@ -1,0 +1,34 @@
+body {
+    font-family: "manrope", sans-serif;
+    background: hsl(218, 23%, 16%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h1 {
+    color: hsl(150, 100%, 66%);
+}
+
+.box {
+    background: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    width: px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.dice {
+    background: hsl(150, 100%, 66%);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 23px;
+}
+
+.dice:hover {
+    box-shadow: 3px 3px 15px hsl(150, 100%, 66%), -3px -3px 15px hsl(150, 100%, 66%);
+}
