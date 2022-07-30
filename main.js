@@ -11,7 +11,7 @@ const AdviceText = document.getElementById("AdviceText");
 const Dice = document.getElementById("dice");
 
 function Id(num) {
-  adviceId.innerHTML = `<h1>Adivce #${num.id}</h1>`;
+  adviceId.innerHTML = `<h1>Advice #${num.id}</h1>`;
 }
 function adviceText(text) {
   AdviceText.innerHTML = `<p>"${text.advice}"</p>`;
